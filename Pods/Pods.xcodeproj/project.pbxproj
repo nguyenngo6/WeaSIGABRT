@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CC7FA88BC6B36F102227B76AF17BA4 /* WXKDarkSky-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33338540E419F8AB23DF7067A21626C1 /* WXKDarkSky-dummy.m */; };
+		0C700CB0D01179378CA3EACEEEA9BAF6 /* WXKDarkSkyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875B6EF5DF4728DAC0A7DDE6B9D180C /* WXKDarkSkyRequest.swift */; };
+		100E98DED9182B641B957DC300CA02D7 /* Units.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7361DCE4EBCD62208EAAC1BA5FB5DE76 /* Units.swift */; };
+		23A2CBC990A35EFB30C82E1B67DE1DFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2444929B9875DD87441E94039AFC162B /* DataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5219C9F3B2134AEAF819DFD4FB559E14 /* DataBlock.swift */; };
+		3EC7BBA64619EA5DB01CFBF773DFD5BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		46A7979E06B66FC1202562AB85767D08 /* Pods-WeaSIGABRT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8D1BBA6D67A598354265F46AF85F58 /* Pods-WeaSIGABRT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595BB1423E3F191C521B614E8B002EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		84FA334C45A8DA5741D073E54E5CD87D /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0349B131A3EC71F80D4A7A920DB8E5 /* Options.swift */; };
+		A73A8C1820D6CD7C513A68B59BF4FABB /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D6D4918442D6B7AD79D535F54C7F7F /* Error.swift */; };
+		A8D06D27A759D3908988C2D08D154840 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EC54D938D424A8982731C2DD9328C4 /* Point.swift */; };
+		B48C76F69F18187AA192A80FD0E969E5 /* WXKDarkSky-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1EF52F6BA6961C8B5F4B8CB30EE066C /* WXKDarkSky-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0AA2A6A5791BA6B5036A7C65E1B483A /* LatLongToTimezone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD375C37CB3CF6FB031523AA959DC11B /* LatLongToTimezone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC6F8D72C50EBB0A2F6D7FBEF59C8C2C /* LatLongToTimezone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BB6D3128EB70211FA25E5DDD93F729 /* LatLongToTimezone-dummy.m */; };
+		E39B38926B3F3A7E7C71BE064B7A4C55 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8140E73514C27D2A1BAC2A91A4632DC0 /* Language.swift */; };
+		EC65C15302993A6F93D1A936A777D469 /* TimezoneMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30326501B4445CF36FC297A27D20B1C5 /* TimezoneMapper.swift */; };
+		F56D583E1387CE4809893672753007B0 /* Date+unixTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEAAE7250E7DE37AA0540E231E508D /* Date+unixTime.swift */; };
+		F5C0D41A1E26914E3C7F1DA16F023C09 /* Pods-WeaSIGABRT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBDE395C11AE7CCA39BAC79EE7EBB6 /* Pods-WeaSIGABRT-dummy.m */; };
+		F60DA1543A48E05598D9D8751764989D /* WXKDarkSkyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F961424E66FB5897A1443057C5A440 /* WXKDarkSkyResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CA89E2E3FEB8B6653A4E8688B4F4C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CDF783077AFD0B1534A02A394DE21A1;
+			remoteInfo = WXKDarkSky;
+		};
+		E7BF2ADA2AAB99FF4FC38A0A55F3150D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 163889B2D6883DE9015D6B652955D50C;
+			remoteInfo = LatLongToTimezone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E7EFDC6D11F424F507A5642A914AAD /* Pods-WeaSIGABRT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WeaSIGABRT.modulemap"; sourceTree = "<group>"; };
+		0946BA44ED1D74002B921ED820976303 /* Pods-WeaSIGABRT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeaSIGABRT-acknowledgements.plist"; sourceTree = "<group>"; };
+		13534D417208BCCEE396F36A579FF2C2 /* LatLongToTimezone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LatLongToTimezone-Info.plist"; sourceTree = "<group>"; };
+		17B378CA0FB2E24556341667C4EBB676 /* Pods-WeaSIGABRT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeaSIGABRT.release.xcconfig"; sourceTree = "<group>"; };
+		1F42E769CE20AA6DCAC5DE3625A5D8FE /* Pods-WeaSIGABRT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WeaSIGABRT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		271A5D7E8D0D58A5C25A6EA5A56A17BC /* LatLongToTimezone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LatLongToTimezone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D680B4411BAEFFEDDF81983FABCC553 /* Pods-WeaSIGABRT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WeaSIGABRT-frameworks.sh"; sourceTree = "<group>"; };
+		30326501B4445CF36FC297A27D20B1C5 /* TimezoneMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimezoneMapper.swift; path = Classes/TimezoneMapper.swift; sourceTree = "<group>"; };
+		33338540E419F8AB23DF7067A21626C1 /* WXKDarkSky-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WXKDarkSky-dummy.m"; sourceTree = "<group>"; };
+		4875B6EF5DF4728DAC0A7DDE6B9D180C /* WXKDarkSkyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WXKDarkSkyRequest.swift; path = Sources/WXKDarkSky/WXKDarkSkyRequest.swift; sourceTree = "<group>"; };
+		4F8D1BBA6D67A598354265F46AF85F58 /* Pods-WeaSIGABRT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WeaSIGABRT-umbrella.h"; sourceTree = "<group>"; };
+		50EC54D938D424A8982731C2DD9328C4 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Sources/WXKDarkSky/Point.swift; sourceTree = "<group>"; };
+		5219C9F3B2134AEAF819DFD4FB559E14 /* DataBlock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataBlock.swift; path = Sources/WXKDarkSky/DataBlock.swift; sourceTree = "<group>"; };
+		56F961424E66FB5897A1443057C5A440 /* WXKDarkSkyResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WXKDarkSkyResponse.swift; path = Sources/WXKDarkSky/WXKDarkSkyResponse.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		63BB6D3128EB70211FA25E5DDD93F729 /* LatLongToTimezone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LatLongToTimezone-dummy.m"; sourceTree = "<group>"; };
+		7361DCE4EBCD62208EAAC1BA5FB5DE76 /* Units.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Units.swift; path = Sources/WXKDarkSky/Units.swift; sourceTree = "<group>"; };
+		7B496EBBE74BF500A5D1D452B8B08D76 /* Pods-WeaSIGABRT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WeaSIGABRT.debug.xcconfig"; sourceTree = "<group>"; };
+		8140E73514C27D2A1BAC2A91A4632DC0 /* Language.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Sources/WXKDarkSky/Language.swift; sourceTree = "<group>"; };
+		86F7811B9E0B1ACACAA08C053B0B8FD5 /* WXKDarkSky-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXKDarkSky-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D50BCA0B6B4269B8499C2D7049DECBF /* WXKDarkSky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WXKDarkSky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CEAAE7250E7DE37AA0540E231E508D /* Date+unixTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+unixTime.swift"; path = "Sources/WXKDarkSky/Date+unixTime.swift"; sourceTree = "<group>"; };
+		AD19F19CB282370008DD1DB87C470CB5 /* Pods_WeaSIGABRT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeaSIGABRT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D6D4918442D6B7AD79D535F54C7F7F /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/WXKDarkSky/Error.swift; sourceTree = "<group>"; };
+		BB93BF4A60034A959296979C4492B773 /* WXKDarkSky-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WXKDarkSky-Info.plist"; sourceTree = "<group>"; };
+		BC6E3157A0E9258E062546EA67D25B86 /* LatLongToTimezone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LatLongToTimezone.modulemap; sourceTree = "<group>"; };
+		C06D4DEE31C2651B2D01D16FCC7B345E /* LatLongToTimezone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LatLongToTimezone.xcconfig; sourceTree = "<group>"; };
+		C07AD3939B4913296BDE918263DCC75F /* WXKDarkSky.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WXKDarkSky.xcconfig; sourceTree = "<group>"; };
+		C1EF52F6BA6961C8B5F4B8CB30EE066C /* WXKDarkSky-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WXKDarkSky-umbrella.h"; sourceTree = "<group>"; };
+		CD375C37CB3CF6FB031523AA959DC11B /* LatLongToTimezone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LatLongToTimezone-umbrella.h"; sourceTree = "<group>"; };
+		DF2BB08AE287EEA15166178ED94D349C /* LatLongToTimezone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LatLongToTimezone-prefix.pch"; sourceTree = "<group>"; };
+		E35BBD3CA406F1AC15B56706A6B3F094 /* Pods-WeaSIGABRT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WeaSIGABRT-Info.plist"; sourceTree = "<group>"; };
+		E3BBDE395C11AE7CCA39BAC79EE7EBB6 /* Pods-WeaSIGABRT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WeaSIGABRT-dummy.m"; sourceTree = "<group>"; };
+		ED02DB39C482F4D713F3777350AA93F5 /* WXKDarkSky.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WXKDarkSky.modulemap; sourceTree = "<group>"; };
+		FD0349B131A3EC71F80D4A7A920DB8E5 /* Options.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Options.swift; path = Sources/WXKDarkSky/Options.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1913008829D1A80295B045F13E128050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595BB1423E3F191C521B614E8B002EBA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BAFD642D3E9D22B44E53B3FC62C3B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC7BBA64619EA5DB01CFBF773DFD5BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A98CB6AF9DD1CA883083484D573FE304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A2CBC990A35EFB30C82E1B67DE1DFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04084159EC1AF1B09A3C133973311396 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271A5D7E8D0D58A5C25A6EA5A56A17BC /* LatLongToTimezone.framework */,
+				AD19F19CB282370008DD1DB87C470CB5 /* Pods_WeaSIGABRT.framework */,
+				9D50BCA0B6B4269B8499C2D7049DECBF /* WXKDarkSky.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30E688E11613F177F1C2F51AE64A7A16 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A165831DEDF832FA1E2FF5163D4447 /* Pods-WeaSIGABRT */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55A165831DEDF832FA1E2FF5163D4447 /* Pods-WeaSIGABRT */ = {
+			isa = PBXGroup;
+			children = (
+				06E7EFDC6D11F424F507A5642A914AAD /* Pods-WeaSIGABRT.modulemap */,
+				1F42E769CE20AA6DCAC5DE3625A5D8FE /* Pods-WeaSIGABRT-acknowledgements.markdown */,
+				0946BA44ED1D74002B921ED820976303 /* Pods-WeaSIGABRT-acknowledgements.plist */,
+				E3BBDE395C11AE7CCA39BAC79EE7EBB6 /* Pods-WeaSIGABRT-dummy.m */,
+				2D680B4411BAEFFEDDF81983FABCC553 /* Pods-WeaSIGABRT-frameworks.sh */,
+				E35BBD3CA406F1AC15B56706A6B3F094 /* Pods-WeaSIGABRT-Info.plist */,
+				4F8D1BBA6D67A598354265F46AF85F58 /* Pods-WeaSIGABRT-umbrella.h */,
+				7B496EBBE74BF500A5D1D452B8B08D76 /* Pods-WeaSIGABRT.debug.xcconfig */,
+				17B378CA0FB2E24556341667C4EBB676 /* Pods-WeaSIGABRT.release.xcconfig */,
+			);
+			name = "Pods-WeaSIGABRT";
+			path = "Target Support Files/Pods-WeaSIGABRT";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6288DB8109F781DC29AA68DD6E237F9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C158FCF79B2FECC7D45732FA18AE19C5 /* LatLongToTimezone */,
+				C476B0FAC4E4427B8E1885C7ABF28E10 /* WXKDarkSky */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6288DB8109F781DC29AA68DD6E237F9F /* Pods */,
+				04084159EC1AF1B09A3C133973311396 /* Products */,
+				30E688E11613F177F1C2F51AE64A7A16 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94A6C4D605E973D81650C9F480C2C848 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED02DB39C482F4D713F3777350AA93F5 /* WXKDarkSky.modulemap */,
+				C07AD3939B4913296BDE918263DCC75F /* WXKDarkSky.xcconfig */,
+				33338540E419F8AB23DF7067A21626C1 /* WXKDarkSky-dummy.m */,
+				BB93BF4A60034A959296979C4492B773 /* WXKDarkSky-Info.plist */,
+				86F7811B9E0B1ACACAA08C053B0B8FD5 /* WXKDarkSky-prefix.pch */,
+				C1EF52F6BA6961C8B5F4B8CB30EE066C /* WXKDarkSky-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WXKDarkSky";
+			sourceTree = "<group>";
+		};
+		B131B8A665D706B6154223686E2D1AE5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6E3157A0E9258E062546EA67D25B86 /* LatLongToTimezone.modulemap */,
+				C06D4DEE31C2651B2D01D16FCC7B345E /* LatLongToTimezone.xcconfig */,
+				63BB6D3128EB70211FA25E5DDD93F729 /* LatLongToTimezone-dummy.m */,
+				13534D417208BCCEE396F36A579FF2C2 /* LatLongToTimezone-Info.plist */,
+				DF2BB08AE287EEA15166178ED94D349C /* LatLongToTimezone-prefix.pch */,
+				CD375C37CB3CF6FB031523AA959DC11B /* LatLongToTimezone-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LatLongToTimezone";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C158FCF79B2FECC7D45732FA18AE19C5 /* LatLongToTimezone */ = {
+			isa = PBXGroup;
+			children = (
+				30326501B4445CF36FC297A27D20B1C5 /* TimezoneMapper.swift */,
+				B131B8A665D706B6154223686E2D1AE5 /* Support Files */,
+			);
+			path = LatLongToTimezone;
+			sourceTree = "<group>";
+		};
+		C476B0FAC4E4427B8E1885C7ABF28E10 /* WXKDarkSky */ = {
+			isa = PBXGroup;
+			children = (
+				5219C9F3B2134AEAF819DFD4FB559E14 /* DataBlock.swift */,
+				A1CEAAE7250E7DE37AA0540E231E508D /* Date+unixTime.swift */,
+				B1D6D4918442D6B7AD79D535F54C7F7F /* Error.swift */,
+				8140E73514C27D2A1BAC2A91A4632DC0 /* Language.swift */,
+				FD0349B131A3EC71F80D4A7A920DB8E5 /* Options.swift */,
+				50EC54D938D424A8982731C2DD9328C4 /* Point.swift */,
+				7361DCE4EBCD62208EAAC1BA5FB5DE76 /* Units.swift */,
+				4875B6EF5DF4728DAC0A7DDE6B9D180C /* WXKDarkSkyRequest.swift */,
+				56F961424E66FB5897A1443057C5A440 /* WXKDarkSkyResponse.swift */,
+				94A6C4D605E973D81650C9F480C2C848 /* Support Files */,
+			);
+			path = WXKDarkSky;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17C93614CD3FA45A0F677A05C11D9983 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AA2A6A5791BA6B5036A7C65E1B483A /* LatLongToTimezone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51E34B8318DEFCC34851C8D2F96F60C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46A7979E06B66FC1202562AB85767D08 /* Pods-WeaSIGABRT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C2325C1FB0772F075C55B129639ACF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48C76F69F18187AA192A80FD0E969E5 /* WXKDarkSky-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		163889B2D6883DE9015D6B652955D50C /* LatLongToTimezone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8964DBB614E1C5BC70A9DAD1E775D6DF /* Build configuration list for PBXNativeTarget "LatLongToTimezone" */;
+			buildPhases = (
+				17C93614CD3FA45A0F677A05C11D9983 /* Headers */,
+				92DD522FACDC45C7A009C8EF34B6BD61 /* Sources */,
+				2BAFD642D3E9D22B44E53B3FC62C3B93 /* Frameworks */,
+				D11BBA9C3AD9D0EC059B8CF0590CD03C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LatLongToTimezone;
+			productName = LatLongToTimezone;
+			productReference = 271A5D7E8D0D58A5C25A6EA5A56A17BC /* LatLongToTimezone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D0308C4AB4213104EAD7B19EB029062 /* Pods-WeaSIGABRT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AB2085C685099D8940454A9569A58D3 /* Build configuration list for PBXNativeTarget "Pods-WeaSIGABRT" */;
+			buildPhases = (
+				51E34B8318DEFCC34851C8D2F96F60C4 /* Headers */,
+				32355EFAB041D85649773265A04B5BAA /* Sources */,
+				A98CB6AF9DD1CA883083484D573FE304 /* Frameworks */,
+				EA7226F811CC2D2DEB853BAF3705031C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACC3C7C3B98E55AE13CC2A462907A925 /* PBXTargetDependency */,
+				5FB6CA02BA3728CE80F7BDFE8F2AE102 /* PBXTargetDependency */,
+			);
+			name = "Pods-WeaSIGABRT";
+			productName = "Pods-WeaSIGABRT";
+			productReference = AD19F19CB282370008DD1DB87C470CB5 /* Pods_WeaSIGABRT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CDF783077AFD0B1534A02A394DE21A1 /* WXKDarkSky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDE076D49416A0745EA3FCE3A3C33867 /* Build configuration list for PBXNativeTarget "WXKDarkSky" */;
+			buildPhases = (
+				E4C2325C1FB0772F075C55B129639ACF /* Headers */,
+				89D13B964799D4D0FEBE21BB1F91824B /* Sources */,
+				1913008829D1A80295B045F13E128050 /* Frameworks */,
+				635A16A89F0FFE73BBC5A6C0DC627480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WXKDarkSky;
+			productName = WXKDarkSky;
+			productReference = 9D50BCA0B6B4269B8499C2D7049DECBF /* WXKDarkSky.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					4CDF783077AFD0B1534A02A394DE21A1 = {
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 04084159EC1AF1B09A3C133973311396 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163889B2D6883DE9015D6B652955D50C /* LatLongToTimezone */,
+				3D0308C4AB4213104EAD7B19EB029062 /* Pods-WeaSIGABRT */,
+				4CDF783077AFD0B1534A02A394DE21A1 /* WXKDarkSky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635A16A89F0FFE73BBC5A6C0DC627480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11BBA9C3AD9D0EC059B8CF0590CD03C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA7226F811CC2D2DEB853BAF3705031C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32355EFAB041D85649773265A04B5BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5C0D41A1E26914E3C7F1DA16F023C09 /* Pods-WeaSIGABRT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D13B964799D4D0FEBE21BB1F91824B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2444929B9875DD87441E94039AFC162B /* DataBlock.swift in Sources */,
+				F56D583E1387CE4809893672753007B0 /* Date+unixTime.swift in Sources */,
+				A73A8C1820D6CD7C513A68B59BF4FABB /* Error.swift in Sources */,
+				E39B38926B3F3A7E7C71BE064B7A4C55 /* Language.swift in Sources */,
+				84FA334C45A8DA5741D073E54E5CD87D /* Options.swift in Sources */,
+				A8D06D27A759D3908988C2D08D154840 /* Point.swift in Sources */,
+				100E98DED9182B641B957DC300CA02D7 /* Units.swift in Sources */,
+				07CC7FA88BC6B36F102227B76AF17BA4 /* WXKDarkSky-dummy.m in Sources */,
+				0C700CB0D01179378CA3EACEEEA9BAF6 /* WXKDarkSkyRequest.swift in Sources */,
+				F60DA1543A48E05598D9D8751764989D /* WXKDarkSkyResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DD522FACDC45C7A009C8EF34B6BD61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6F8D72C50EBB0A2F6D7FBEF59C8C2C /* LatLongToTimezone-dummy.m in Sources */,
+				EC65C15302993A6F93D1A936A777D469 /* TimezoneMapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FB6CA02BA3728CE80F7BDFE8F2AE102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WXKDarkSky;
+			target = 4CDF783077AFD0B1534A02A394DE21A1 /* WXKDarkSky */;
+			targetProxy = 2CA89E2E3FEB8B6653A4E8688B4F4C0B /* PBXContainerItemProxy */;
+		};
+		ACC3C7C3B98E55AE13CC2A462907A925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LatLongToTimezone;
+			target = 163889B2D6883DE9015D6B652955D50C /* LatLongToTimezone */;
+			targetProxy = E7BF2ADA2AAB99FF4FC38A0A55F3150D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		20A939E441D4B43A99B0A1D3AF5D9342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B378CA0FB2E24556341667C4EBB676 /* Pods-WeaSIGABRT.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeaSIGABRT/Pods-WeaSIGABRT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeaSIGABRT/Pods-WeaSIGABRT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2DFC452606AC913AF622CCA26D02BE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06D4DEE31C2651B2D01D16FCC7B345E /* LatLongToTimezone.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LatLongToTimezone/LatLongToTimezone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LatLongToTimezone/LatLongToTimezone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LatLongToTimezone/LatLongToTimezone.modulemap";
+				PRODUCT_MODULE_NAME = LatLongToTimezone;
+				PRODUCT_NAME = LatLongToTimezone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		35FB6755B2CD27F9E0B74EBE0F7CD2A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06D4DEE31C2651B2D01D16FCC7B345E /* LatLongToTimezone.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LatLongToTimezone/LatLongToTimezone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LatLongToTimezone/LatLongToTimezone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LatLongToTimezone/LatLongToTimezone.modulemap";
+				PRODUCT_MODULE_NAME = LatLongToTimezone;
+				PRODUCT_NAME = LatLongToTimezone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		40B45BB3CF3EE4476259302A7FAAD78F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4AF09C22E7E4E7671EE922DFD41C66FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07AD3939B4913296BDE918263DCC75F /* WXKDarkSky.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXKDarkSky/WXKDarkSky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXKDarkSky/WXKDarkSky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXKDarkSky/WXKDarkSky.modulemap";
+				PRODUCT_MODULE_NAME = WXKDarkSky;
+				PRODUCT_NAME = WXKDarkSky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85ED3013A635C27F8B7FAF51362B108C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B65C696F80BE7EEB72349AFC6C599B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B496EBBE74BF500A5D1D452B8B08D76 /* Pods-WeaSIGABRT.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WeaSIGABRT/Pods-WeaSIGABRT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WeaSIGABRT/Pods-WeaSIGABRT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D465E41ABD7C30F007A6803968CE8518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07AD3939B4913296BDE918263DCC75F /* WXKDarkSky.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WXKDarkSky/WXKDarkSky-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WXKDarkSky/WXKDarkSky-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WXKDarkSky/WXKDarkSky.modulemap";
+				PRODUCT_MODULE_NAME = WXKDarkSky;
+				PRODUCT_NAME = WXKDarkSky;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AB2085C685099D8940454A9569A58D3 /* Build configuration list for PBXNativeTarget "Pods-WeaSIGABRT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65C696F80BE7EEB72349AFC6C599B76 /* Debug */,
+				20A939E441D4B43A99B0A1D3AF5D9342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85ED3013A635C27F8B7FAF51362B108C /* Debug */,
+				40B45BB3CF3EE4476259302A7FAAD78F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8964DBB614E1C5BC70A9DAD1E775D6DF /* Build configuration list for PBXNativeTarget "LatLongToTimezone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35FB6755B2CD27F9E0B74EBE0F7CD2A2 /* Debug */,
+				2DFC452606AC913AF622CCA26D02BE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDE076D49416A0745EA3FCE3A3C33867 /* Build configuration list for PBXNativeTarget "WXKDarkSky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF09C22E7E4E7671EE922DFD41C66FB /* Debug */,
+				D465E41ABD7C30F007A6803968CE8518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
